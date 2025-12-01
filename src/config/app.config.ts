@@ -22,7 +22,7 @@ export interface AppConfig {
 export const config: AppConfig = {
   server: {
     // PORT: port yang digunakan server, default 5555
-    port: Number(process.env["PORT"]) || 5555,
+    port: Number(process.env["PORT"]) || 6666,
     // SERVER_URL: jika aplikasi perlu mem-ping endpoint untuk keep-alive
     serverUrl: process.env["SERVER_URL"] || undefined,
   },
